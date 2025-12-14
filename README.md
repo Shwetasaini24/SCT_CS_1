@@ -1,2 +1,19 @@
-# SCT_CS_1
-This project demonstrates the implementation of the Caesar Cipher using Python. It allows users to encrypt and decrypt text by shifting alphabetic characters by a fixed key while preserving case and ignoring non-alphabet characters.
+# Caesar Cipher in Python
+
+This project implements the Caesar Cipher algorithm, one of the earliest and simplest encryption techniques. The program encrypts and decrypts a given message by shifting each alphabetic character by a fixed number of positions defined by the user.
+
+## How It Works
+- Each letter is converted to its ASCII value.
+- A fixed shift value (key) is added or subtracted.
+- Modulo 26 arithmetic is used to handle wrap-around from Z to A.
+- Uppercase and lowercase letters are preserved.
+- Numbers, spaces, and symbols remain unchanged.
+
+## Features
+- User input for message and shift value
+- Encryption and decryption functionality
+- Case-sensitive handling of characters
+- Simple and readable Python implementation
+
+## Usage
+Run the program and enter the message and shift value when prompted:
